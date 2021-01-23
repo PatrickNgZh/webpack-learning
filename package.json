@@ -1,0 +1,20 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "This is my webpack learning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickNgZh/webpack-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickNgZh/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/PatrickNgZh/webpack-learning#readme"
+}
