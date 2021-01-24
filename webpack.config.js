@@ -15,6 +15,7 @@ module.exports = {
         'css-loader'
       ],
     },{
+      // deal with images file
       test: /\.(jpg|png|gif)$/,
       // install url-loader file-loader
       loader: 'url-loader',
@@ -22,8 +23,12 @@ module.exports = {
         // if file less than 8kb, it will be deal with base64
         // advantage: reduce request
         // disadvantage: file will be larger
-        limit: 100*1024
+        limit: 8*1024
       },
+    },{
+      // parse img tag in html file
+      test: /\.html$/,
+      loader: 'html-loader',
     }],
   },
   plugins: [
