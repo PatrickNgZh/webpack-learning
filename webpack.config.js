@@ -15,6 +15,14 @@ module.exports = {
         'css-loader'
       ],
     },{
+      // install less less-loader
+      test: /\.less$/,
+      use: [
+        'style-loader',
+        'css-loader',
+        'less-loader'
+      ],
+    },{
       // deal with images file
       test: /\.(jpg|png|gif)$/,
       // install url-loader file-loader
