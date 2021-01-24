@@ -14,6 +14,16 @@ module.exports = {
         'style-loader',
         'css-loader'
       ],
+    },{
+      test: /\.(jpg|png|gif)$/,
+      // install url-loader file-loader
+      loader: 'url-loader',
+      options: {
+        // if file less than 8kb, it will be deal with base64
+        // advantage: reduce request
+        // disadvantage: file will be larger
+        limit: 100*1024
+      },
     }],
   },
   plugins: [

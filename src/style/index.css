@@ -4,3 +4,10 @@ html, body {
     height: 100%;
     background-color: lightgreen;
 }
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/shaum.jpg');
+    background-size: cover;
+}
